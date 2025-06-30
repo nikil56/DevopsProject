@@ -30,15 +30,17 @@ This project demonstrates a complete DevOps workflow for a containerized Golang 
 ---
 ## 📂 Folder Structure
 
-
+```plaintext
 .
 ├── app/                     # Golang source code
-├── Dockerfile               # Multi-stage build
-├── helm/                    # Helm chart with env values
-├── k8s/                     # Kubernetes manifests (optional)
-├── argocd/                  # Argo CD Application YAMLs
-├── .github/workflows/       # GitHub Actions CI pipeline
+├── Dockerfile               # Multi-stage Docker build
+├── helm/                    # Helm charts with env-specific values
+├── k8s/                     # (Optional) Kubernetes raw manifests
+├── argocd/                  # Argo CD Application definitions
+├── .github/
+│   └── workflows/           # GitHub Actions CI pipeline
 └── README.md
+````
 
 ---
 
