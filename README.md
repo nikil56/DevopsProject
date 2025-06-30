@@ -1,19 +1,64 @@
-# Go Web Application
+# 🚀 End-to-End DevOps Pipeline for Golang Web App
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
+This project demonstrates a complete DevOps workflow for a containerized Golang web application, covering CI/CD, Kubernetes deployment, Helm packaging, GitOps, and more.
 
-## Running the server
+---
 
-To run the server, execute the following command:
+## 🧰 Tech Stack
 
-```bash
-go run main.go
-```
+- *Language*: Golang  
+- *Containerization*: Docker (multi-stage builds)  
+- *Orchestration*: Kubernetes  
+- *CI/CD*: GitHub Actions + Argo CD (GitOps)  
+- *Packaging*: Helm Charts  
+- *Ingress*: NGINX Ingress Controller  
+- *DNS Mapping*: Cloudflare / Route 53  
 
-The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
+---
 
-## Looks like this
+## ✅ Features Implemented
 
-![Website](static/images/golang-website.png)
+- 🐳 Multi-stage Docker build for optimized container image
+- ⚙ Kubernetes manifests for deployment
+- 🔄 GitHub Actions for automated CI (build, test, push to registry)
+- 🚀 Continuous Delivery with Argo CD
+- 📦 Helm chart with environment-specific values (dev/stage/prod)
+- 🌐 Ingress controller setup to expose the service via custom domain
+- 🔗 DNS configuration using Cloudflare/Route53
+- 🔁 Complete CI/CD demonstration from commit to live deployment
+
+---
+## 📂 Folder Structure
 
 
+.
+├── app/                     # Golang source code
+├── Dockerfile               # Multi-stage build
+├── helm/                    # Helm chart with env values
+├── k8s/                     # Kubernetes manifests (optional)
+├── argocd/                  # Argo CD Application YAMLs
+├── .github/workflows/       # GitHub Actions CI pipeline
+└── README.md
+
+---
+
+## 🎯 What You’ll Learn
+
+- How to build and containerize a Golang application
+- Set up GitHub Actions for CI (build, push to Docker registry)
+- Configure Argo CD for GitOps-based CD
+- Use Helm to manage Kubernetes deployments across environments
+- Setup Ingress + DNS to expose apps cleanly and professionally
+
+---
+
+## 🤝 Contributions / Feedback
+
+Open to improvements, suggestions, and collaboration. Feel free to fork or raise an issue!
+
+---
+
+## 📜 License
+
+MIT License  
+© 2025 [Nikhil]
