@@ -41,7 +41,13 @@ This project demonstrates a complete DevOps workflow for a containerized Golang 
 │   └── workflows/           # GitHub Actions CI pipeline
 └── README.md
 ````
+---
 
+## 🔄 CI/CD Pipeline Diagram
+
+![CI/CD Pipeline](./assets/cicdflow.png)
+
+---
 ---
 
 ## 🎯 What You’ll Learn
