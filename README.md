@@ -48,7 +48,6 @@ This project demonstrates a complete DevOps workflow for a containerized Golang 
 ![CI/CD Pipeline](./assets/cicdflow.png)
 
 ---
----
 
 ## 🎯 What You’ll Learn
 
